@@ -26,13 +26,12 @@ namespace ConsoleApp6
                 for (int i = 0; i < this.originalstr.Length; i++)
                 {
                     if (this.originalstr[i] == attempt)
-                        foundIndexes.Add(i);
-                }
-                foreach (int i in foundIndexes)
-                {
-                    StringBuilder sb = new StringBuilder(this.strdisplay);
-                    sb[i] = attempt;
-                    this.strdisplay = sb.ToString();
+                    {
+                        StringBuilder sb = new StringBuilder(this.strdisplay);
+                        sb[i] = attempt;
+                        this.strdisplay = sb.ToString();
+                    }
+                       
                 }
                 if (this.originalstr == this.strdisplay)
                 {
