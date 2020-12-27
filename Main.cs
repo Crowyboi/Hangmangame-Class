@@ -56,10 +56,10 @@ namespace ConsoleApp6
     {
         static void Main(string[] args)
         {
-            var OwO = new thehangedman(Console.ReadLine(),6);
-            while(OwO.status){
-                Console.WriteLine(OwO.strdisplay);
-                Console.WriteLine(OwO.attemptchar(char.Parse(Console.ReadLine())));
+            var Game1 = new thehangedman(Console.ReadLine(),6);
+            while(Game1.status){
+                Console.WriteLine(Game1.strdisplay);
+                Console.WriteLine(Game1.attemptchar(char.Parse(Console.ReadLine())));
             }
         }
     }
