@@ -22,7 +22,6 @@ namespace ConsoleApp6
 
             if(this.originalstr.Contains(attempt))
             {
-                var foundIndexes = new List<int>();
                 for (int i = 0; i < this.originalstr.Length; i++)
                 {
                     if (this.originalstr[i] == attempt)
